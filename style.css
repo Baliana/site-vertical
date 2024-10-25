@@ -10,3 +10,42 @@ a{
 ul, ol, li{
     list-style: none;
 }
+header{
+    background-color: black;
+    padding: 32px;
+    position: fixed;
+    width: 100vw;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a {
+    color: white;
+    padding: 8px;
+    transform: 1s;
+    
+}
+header nav a:hover {
+    background-color: tomato;
+
+}
+.grupo{
+    height: 100vh;
+
+}
+#Elementos{    
+        background-image: url('./img/naruto.webp');
+        background-size: cover;
+        background-position: center;
+}
+
+#Episódios{
+       background-color: aquamarine;
+}
+#Personagens{
+    background-color: blue;
+}
+#Vila{
+    background-color: yellow;
+}
