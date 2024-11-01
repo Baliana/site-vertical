@@ -1,51 +1,32 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.conteudo{
+    padding: 20px; 
+    margin: 20px; 
+    text-align: left; 
+    top: px;
+    color: white; 
+    font-size: 1.2em; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 8px; 
 }
 
-a{
-    text-decoration: none;
-}
-ul, ol, li{
-    list-style: none;
-}
-header{
-    background-color: black;
-    padding: 32px;
-    position: fixed;
-    width: 100vw;
-}
-header nav ul{
-    display: flex;
-    justify-content: space-between;
-}
-header nav a {
-    color: white;
-    padding: 8px;
-    transform: 1s;
-    
-}
-header nav a:hover {
-    background-color: tomato;
-
-}
 .grupo{
     height: 100vh;
-
+    gap: 10px;
 }
-#Elementos{    
-        background-image: url('./img/naruto.webp');
-        background-size: cover;
-        background-position: center;
+#Elementos{
+    background-color: tomato;
+    height: 100vh;
 }
-
 #Episódios{
-       background-color: aquamarine;
+       background-color: rgb(90, 197, 161);
+       height: 100vh;
 }
 #Personagens{
     background-color: blue;
+    height: 100vh;
 }
 #Vila{
     background-color: yellow;
+    height: 100vh;
 }
+
