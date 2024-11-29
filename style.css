@@ -138,11 +138,19 @@ body {
     z-index: -1;
 }
 .container {
-    position: relative; 
+    position:center; 
   }
   
+.imgkakashi1{
+    width: 50px;
+    height: 50px;
+}
+.imgkakashi2{
 
-  
+}
+.imgkakashi3{
+    
+}
   .fotos{
     display: flex;
     flex-wrap: wrap; 
