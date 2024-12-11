@@ -63,11 +63,15 @@ ul{
     padding: 20px; 
     margin: 20px; 
     text-align: left; 
-    top: px;
+    
     color: rgb(230, 230, 230); 
     font-size: 1.2em; 
     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 8px; 
+}
+
+section{
+    height: 100vh;
 }
 
 
@@ -90,7 +94,7 @@ ul{
     font-size: 20px;
     text-align: left;
     color: white;
-    margin-top: 130px;
+     margin-top: 8px;
     margin-left: 54px;
     
 }
@@ -125,49 +129,150 @@ body {
   }
 
 
+
 #Episódios{
     position: relative;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 300px); 
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+   
    
 
 }
+
+
 .imgkakashi{
     width: 100%;
     position: absolute ;
     top: 0;
     left: 0;
     z-index: -1;
+
 }
 .container {
     position:center; 
+    
   }
+  .galeria{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+  .galeria div {
+    width: 30%; 
+    font-size: 100%;
+    color: white;
+    margin-left: 10%;
+    margin-top: 9%;
+  }
+   
   
 .imgkakashi1{
-    width: 50px;
-    height: 50px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
 }
 .imgkakashi2{
+   
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 
 }
 .imgkakashi3{
+   
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
     
 }
-  .fotos{
-    display: flex;
-    flex-wrap: wrap; 
-  }
-  
-  .galeria img {
-    width: 33.33%; 
-  }
-#Personagens{
-    background-color: rgb(76, 11, 11);
-    height: 100vh;
-    
+.imgkakashi4{
+    border-radius: 10px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
 }
 
-#Vila{
-    background-color: yellow;
+  
+
+#Personagens{
+    background-color: rgb(29, 3, 3);
     height: 100vh;
+    
+}
+.fotos{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+
+
+.fotos div {
+    width: 30%; 
+    font-size: 100%;
+    color: white;
+    margin-left: 10%;
+    margin-top: 6%;
+  }
+
+.personagens1{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.personagens2{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.personagens3{
+    height: auto;
+    width: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.personagens4{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+#Vila{
+    background-image: url(./img/cade-smith-naruto-world-map-watermark-low.jpg);
+  
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    
 }
 
   
